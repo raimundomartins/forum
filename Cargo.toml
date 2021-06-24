@@ -8,4 +8,6 @@ repository = "https://github.com/riamundomartins/forum"
 description = "Forum provides a very simple pub-sub API, based on channels."
 
 [dependencies]
-
+thiserror = "*"
+futures = "*"
+tokio = { version = "*", features = ["rt", "sync", "macros"] }
